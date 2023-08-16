@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "URL Changer",
+  "version": "1.0",
+  "description": "Extension to change the start of the URL",
+  "permissions": [
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "URL Changer",
+    "default_icon": {
+      "48": "maskable_icon_x48.png",
+      "72": "maskable_icon_x72.png",
+      "96": "maskable_icon_x96.png",
+      "128": "maskable_icon_x128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://localhost:3000/content/*",
+    "http://localhost:4502/editor.html/content/*"
+  ]
+}
