@@ -13,6 +13,20 @@ const replacedUrl = (url = '') => {
   return `${replacedPort}.html`;
 }
 
+document.addEventListener('DOMContentLoaded', async () => {
+  const [activeTab] = await chrome.tabs.query({ active: true, currentWindow: true });
+
+  if (activeTab) {
+    const newUrl = replacedUrl(activeTab.url);
+
+    if (newUrl) {
+      chrome.tabs.update(activeTab.id, { url: newUrl });
+    }
+  }
+
+  window.close();
+})
+
 document.getElementById('changeUrlButton').addEventListener('click', async () => {
   const [activeTab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
