@@ -36,7 +36,7 @@ Para utilizar a extensão URL Charger, você precisa ter um navegador que suport
 
 2. Clique no botão `Code` e depois em `Download ZIP` ou clone este repositório para o seu computador usando o seguinte comando:
 
-```
+```bash
 git clone https://github.com/jerp86/urlChanger.git
 ```
 
@@ -84,6 +84,7 @@ git checkout -b minha-feature
 3. Faça as alterações necessárias e faça commit delas:
 
 ```bash
+git add .
 git commit -m "Adicionando minha nova feature"
 ```
 
@@ -113,12 +114,16 @@ Atualmente, a extensão foi desenvolvida para funcionar apenas no Google Chrome.
 
 Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para usar, modificar e distribuir de acordo com os termos da licença.
 
----
-
 ## Referências
 
 - [Documentação do Google Chrome Extensions](https://developer.chrome.com/docs/extensions/)
 - [Página do Adobe Experience Manager](https://www.adobe.com/marketing/experience-manager.html)
+
+---
+
+## English Version
+
+If you prefer to read this README in English, you can find the English version [here](README.en.md).
 
 ---
 
