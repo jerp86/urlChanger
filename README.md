@@ -1,4 +1,4 @@
-# URL Charger
+# URL Changer
 
 <p align="center" style="background-color: #2F2E41">
   <a href="https://wefit.com.br/" target="_blank" rel="noreferrer noopener">
@@ -24,15 +24,15 @@
 
 ## Sobre
 
-**URL Charger** é uma extensão para o navegador Google Chrome que permite alterar o início da URL de uma página da web. Com essa extensão, você pode facilmente mudar a URL de uma página em desenvolvimento para a mesma referência do editor AEM (Adobe Experience Manager).
+**URL Changer** é uma extensão para o navegador Google Chrome que permite alterar o início da URL de uma página da web. Com essa extensão, você pode facilmente mudar a URL de uma página em desenvolvimento para a mesma referência do editor AEM (Adobe Experience Manager).
 
 ## Pré-requisitos
 
-Para utilizar a extensão URL Charger, você precisa ter um navegador que suporte extensões do Google Chrome, como o próprio Google Chrome ou o Chromium.
+Para utilizar a extensão URL Changer, você precisa ter um navegador que suporte extensões do Google Chrome, como o próprio Google Chrome ou o Chromium.
 
 ## Instalação
 
-1. Abra a página [URL Charger no GitHub](https://github.com/jerp86/urlChanger)
+1. Abra a página [URL Changer no GitHub](https://github.com/jerp86/urlChanger)
 
 2. Clique no botão `Code` e depois em `Download ZIP` ou clone este repositório para o seu computador usando o seguinte comando:
 
@@ -48,15 +48,15 @@ git clone https://github.com/jerp86/urlChanger.git
 
 6. Clique no botão `Carregar extensão descompactada` e selecione a pasta onde você extraiu o arquivo ZIP ou clonou o repositório
 
-A extensão **URL Charger** estará instalada e pronta para uso.
+A extensão **URL Changer** estará instalada e pronta para uso.
 
 ## Uso
 
-Para usar o URL Charger, siga estas etapas:
+Para usar o URL Changer, siga estas etapas:
 
 1. Abra a página da web que você deseja
 
-2. Clique no ícone do **URL Charger** na barra de ferramentas do Chrome
+2. Clique no ícone do **URL Changer** na barra de ferramentas do Chrome
 
 3. Será alterado a url e carregado a nova página
 
@@ -69,32 +69,17 @@ Para usar o URL Charger, siga estas etapas:
 
 Nós adoramos receber contribuições da comunidade! Se você quiser contribuir com melhorias, correções de bugs ou novos recursos, siga as etapas abaixo:
 
-1. Faça um fork deste repositório.
+1. Faça um fork do repositório e clone-o em sua máquina local.
 
-```bash
-git clone https://github.com/jerp86/urlChanger.git
-```
+2. Crie um novo branch para suas alterações: `git checkout -b meu-nome-de-branch`.
 
-2. Crie uma nova branch com um nome descritivo para a sua contribuição:
+3. Faça suas alterações e teste-as cuidadosamente.
 
-```bash
-git checkout -b minha-feature
-```
+4. Faça o commit das suas alterações com uma mensagem descritiva: `git commit -m "Adicionar nova funcionalidade"`.
 
-3. Faça as alterações necessárias e faça commit delas:
+5. Envie suas alterações para o seu repositório forkado: `git push origin meu-nome-de-branch`.
 
-```bash
-git add .
-git commit -m "Adicionando minha nova feature"
-```
-
-4. Envie as alterações para o repositório remoto:
-
-```bash
-git push origin minha-feature
-```
-
-5. Abra um Pull Request para a branch `main` do repositório original.
+6. Abra um pull request no repositório principal e forneça uma descrição clara e concisa das suas alterações.
 
 ## Perguntas Frequentes
 
