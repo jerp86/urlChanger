@@ -81,6 +81,8 @@ Nós adoramos receber contribuições da comunidade! Se você quiser contribuir 
 
 6. Abra um pull request no repositório principal e forneça uma descrição clara e concisa das suas alterações.
 
+Para maiores informações, clique em [Contribuindo com o URL Charger](#CONTRIBUTING.md).
+
 ## Perguntas Frequentes
 
 **1. Como posso reportar um bug?**
