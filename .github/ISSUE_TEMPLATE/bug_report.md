@@ -1,8 +1,8 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Use this template to report a bug or unexpected behavior in the project
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
